@@ -1,0 +1,29 @@
+.todo-item {
+  position: relative;
+  display: flex;
+  background-color: rgb(235, 235, 235);
+  padding: 0 20px;
+  height: 40px;
+  margin-bottom: 4px;
+  gap: 3px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.todo-item > .button--danger {
+  position: absolute;
+  /* display: none; */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transform: translate(100%);
+  opacity: 0;
+  cursor: pointer;
+}
+
+.todo-item:hover > .button--danger {
+  /* display: block; */
+  transform: translate(0);
+  opacity: 1;
+  transition: all 0.4s ease;
+}

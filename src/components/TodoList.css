@@ -1,0 +1,13 @@
+.todo-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.todo-list .button {
+  margin-left: auto;
+}
+
+.todo-item-text {
+  text-align: center;
+  font-size: 20px;
+}
